@@ -1,0 +1,44 @@
+Questions regarding uploaded image classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: 
+
+Yes, they all classified it as a doberman or doberman pinscher.
+
+
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified in Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: 
+Yes, each of the three model architectures classified the breed of dog in Dog_01.jpg to be the same breed as they classified Dog_02.jpg. The classifications for Dog_01.jpg and Dog_02.jpg are as follows:
+
+ResNet: Classified as "doberman, doberman pinscher" for both Dog_01.jpg and Dog_02.jpg.
+VGG: Classified as "doberman, doberman pinscher" for both Dog_01.jpg and Dog_02.jpg.
+AlexNet: Classified as "doberman, doberman pinscher" for both Dog_01.jpg and Dog_02.jpg.
+There is no difference in the breed classification between the three model architectures for Dog_01.jpg and Dog_02.jpg.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg as not being dogs? If not, report the misclassifications.
+
+Answer: 
+Yes, the three models classified Rug_01.jpg and Rabbit_01.jpg as not being dogs.
+
+
+
+
+4. Based upon your answers to questions 1–3 above, select the model architecture that you feel did the best job of classifying the four uploaded images. Describe why you selected that model architecture as the best for uploaded image classification.
+
+Answer:
+
+Consistent breed identification: The dog breed in Dog_01.jpg was accurately identified as "doberman, doberman pinscher" by AlexNet, VGG, and ResNet. The three models in this image are therefore all classified as the same breed.
+
+
+The dog breed in Dog_01.jpg and Dog_02.jpg was consistently identified by AlexNet, VGG, and ResNet as being "doberman, doberman pinscher." This shows that the three algorithms consistently identify the same breed across photographs when classifying them.
+
+All three models accurately identified the images Animal_Name_01.jpg and Object_Name_01.jpg as not being dogs. This implies that the models are proficient at differentiating between canine and non-canine images.
+ac
+In addition, when the runtime of the models is taken into account, AlexNet has the quickest total elapsed runtime (1 second), indicating effective processing.
+
+Based on these criteria, I would choose AlexNet as the best model architecture for uploaded image classification because it consistently classifies breeds, correctly identifies non-dog photographs, and is quick to run.
